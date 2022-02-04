@@ -1,12 +1,10 @@
-package com.spring_mvc_project.dao;
-
+package com.spring_mvc_project.service;
 
 import com.spring_mvc_project.entity.Employee;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface ApplicationService {
     public void saveEmployee(Employee employee);
     public void deleteEmployee(Employee employee);
     public Employee getEmployee(Long id);
